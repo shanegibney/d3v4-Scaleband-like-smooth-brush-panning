@@ -1,31 +1,131 @@
 [{
     "name": "A",
-    "date": "2016-11-09 11:15",
     "num": "1",
     "distance": "1900"
   },
   {
     "name": "B",
-    "date": "2016-11-10 10:40",
     "num": "2",
     "distance": "1500"
   },
   {
     "name": "C",
-    "date": "2016-11-11 16:45",
     "num": "3",
     "distance": "2500"
   },
   {
     "name": "D",
-    "date": "2016-11-12 12:48",
     "num": "4",
     "distance": "2300"
   },
   {
     "name": "E",
-    "date": "2016-11-15 20:00",
     "num": "5",
     "distance": "2000"
+  },
+  {
+    "name": "F",
+    "num": "6",
+    "distance": "1900"
+  },
+  {
+    "name": "G",
+    "num": "7",
+    "distance": "1900"
+  },
+  {
+    "name": "H",
+    "num": "8",
+    "distance": "1900"
+  },
+  {
+    "name": "I",
+    "num": "9",
+    "distance": "1900"
+  },
+  {
+    "name": "J",
+    "num": "10",
+    "distance": "1900"
+  },
+  {
+    "name": "K",
+    "num": "11",
+    "distance": "1900"
+  },
+  {
+    "name": "L",
+    "num": "12",
+    "distance": "1900"
+  },
+  {
+    "name": "M",
+    "num": "13",
+    "distance": "1900"
+  },
+  {
+    "name": "N",
+    "num": "14",
+    "distance": "1900"
+  },
+  {
+    "name": "O",
+    "num": "15",
+    "distance": "1900"
+  },
+  {
+    "name": "P",
+    "num": "16",
+    "distance": "1900"
+  },
+  {
+    "name": "Q",
+    "num": "17",
+    "distance": "1900"
+  },
+  {
+    "name": "R",
+    "num": "18",
+    "distance": "1900"
+  },
+  {
+    "name": "S",
+    "num": "19",
+    "distance": "1900"
+  },
+  {
+    "name": "T",
+    "num": "20",
+    "distance": "1900"
+  },
+  {
+    "name": "U",
+    "num": "21",
+    "distance": "1900"
+  },
+  {
+    "name": "V",
+    "num": "22",
+    "distance": "1900"
+  },
+  {
+    "name": "W",
+    "num": "23",
+    "distance": "1900"
+  },
+  {
+    "name": "X",
+    "num": "24",
+    "distance": "1900"
+  },
+  {
+    "name": "Y",
+    "num": "25",
+    "distance": "1900"
+  },
+  {
+    "name": "Z",
+    "num": "26",
+    "distance": "1900"
   }
 ]

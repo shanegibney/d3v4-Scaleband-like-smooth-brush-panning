@@ -32,37 +32,23 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
   /* Adapted from: https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172 */
-  var data = [{
-      "name": "A",
-      "date": "2016-11-09 11:15",
-      "num": "1",
-      "distance": "1900"
-    },
-    {
-      "name": "B",
-      "date": "2016-11-10 10:40",
-      "num": "2",
-      "distance": "1500"
-    },
-    {
-      "name": "C",
-      "date": "2016-11-11 16:45",
-      "num": "3",
-      "distance": "2500"
-    },
-    {
-      "name": "D",
-      "date": "2016-11-12 12:48",
-      "num": "4",
-      "distance": "2300"
-    },
-    {
-      "name": "E",
-      "date": "2016-11-15 20:00",
-      "num": "5",
-      "distance": "2000"
-    }
+  var data = [];
+  alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
+    "w", "x", "y", "z"
   ];
+
+  for (var i = 0; i < alpha.length; i++) {
+
+    function rand() {
+      return (Math.floor(Math.random() * 30 + 10)) * 100;
+    }
+
+    data.push({
+      "name": alpha[i],
+      "num": i,
+      "distance": rand()
+    })
+  }
 
   var margin = {
       top: 20,
@@ -89,16 +75,6 @@
     y = d3.scaleLinear().range([height, 0]),
     y2 = d3.scaleLinear().range([height2, 0]);
   // dur = d3.scaleLinear().range([0, 12]);
-
-  var tickLabels = ['a', 'b', 'c', 'd'];
-
-  var newData = [];
-  data.forEach(function(e) {
-    console.log(e);
-    newData.push({
-      "name": e.name
-    });
-  });
 
   //var xAxis = d3.axisBottom(x).tickSize(0);
   var xAxis2 = d3.axisBottom(x2).tickSize(0)
