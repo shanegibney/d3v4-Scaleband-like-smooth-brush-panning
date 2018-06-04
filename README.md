@@ -23,4 +23,4 @@ There is an issue that when the x-axis is expanded, which is what happens when y
 
 gh-pages [demo](https://shanegibney.github.io/d3v4-Scaleband-like-smooth-brush-panning/)
 
-<a href="https://shanegibney.github.io/d3v4-Scaleband-like-smooth-brush-panning/"><img width="981" alt="screen shot 2018-06-04 at 13 20 22" src="https://user-images.githubusercontent.com/17167992/40917156-21ab1fa4-67fa-11e8-9452-6dc230febbf8.png"></a>
+<a href="https://shanegibney.github.io/d3v4-Scaleband-like-smooth-brush-panning/"><img width="981" alt="screen shot 2018-06-04 at 13 20 22" src="<img width="979" alt="screen shot 2018-06-04 at 14 37 34" src="https://user-images.githubusercontent.com/17167992/40920599-f6ece828-6804-11e8-8bee-6098d635c04c.png">"></a>

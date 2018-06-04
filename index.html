@@ -77,7 +77,7 @@
   // dur = d3.scaleLinear().range([0, 12]);
 
   //var xAxis = d3.axisBottom(x).tickSize(0);
-  var xAxis2 = d3.axisBottom(x2).tickSize(0)
+  var xAxis2 = d3.axisBottom(x2).tickSize(0).ticks(data.length)
     .tickFormat(function(d) {
       var found = data.find(function(e) {
         return e.num === d
@@ -86,7 +86,7 @@
     })
   yAxis = d3.axisLeft(y).tickSize(0);
 
-  var xAxis = d3.axisBottom(x)
+  var xAxis = d3.axisBottom(x).ticks(data.length)
     .tickFormat(function(d) {
       var found = data.find(function(e) {
         return e.num === d
